@@ -3,107 +3,107 @@ xkb_symbols "copt" {
     name[Group1]= "Coptic";
 
     // ⲋ (COPTIC SMALL LETTER SOU), Ⲋ (COPTIC CAPITAL LETTER SOU)
-    key <TLDE>	{[   grave,	 asciitilde, U2C8B,	 U2C8A	]};
-    
+    key <TLDE> {[ grave, asciitilde, U2C8B, U2C8A ]};
+
     // Number row - combining diacritics
-    key <AE01>	{[	 1,	 exclam,  U0307	]}; // COMBINING DOT ABOVE
-    key <AE02>	{[	 2,	 at,      U0323 ]}; // COMBINING DOT BELOW
-    key <AE03>	{[	 3,	 numbersign, U0308 ]}; // COMBINING DIAERESIS
-    key <AE04>	{[	 4,	 dollar,  U0300	]}; // COMBINING GRAVE ACCENT
-    key <AE05>	{[	 5,	 percent, U0301	]}; // COMBINING ACUTE ACCENT
-    key <AE06>	{[	 6,	 asciicircum, U0302 ]}; // COMBINING CIRCUMFLEX
-    key <AE07>	{[	 7,	 ampersand, U0311 ]}; // COMBINING INVERTED BREVE
-    key <AE08>	{[	 8,	 asterisk, U0361 ]}; // COMBINING DOUBLE INVERTED BREVE
-    key <AE09>	{[	 9,	 parenleft, U0304 ]}; // COMBINING MACRON
-    key <AE10>	{[	 0,	 parenright, U035E ]}; // COMBINING DOUBLE MACRON
-    key <AE11>	{[   minus,	 underscore, U0305 ]}; // COMBINING OVERLINE
-    key <AE12>	{[   equal,	 plus,     U033F ]}; // COMBINING DOUBLE OVERLINE
+    key <AE01> {[ 1, exclam, U0300]}; // COMBINING GRAVE ACCENT
+    key <AE02> {[ 2, at, U0301]}; // COMBINING ACUTE ACCENT
+    key <AE03> {[ 3, numbersign, U2CF0, U2CF1 ]}; // COPTIC COMBINING SPIRITUS ASPER, COPTIC COMBINING SPIRITUS LENIS
+    key <AE04> {[ 4, dollar, U2CEF ]}; // COPTIC COMBINING NI ABOVE
+    key <AE05> {[ 5, percent, U0307, U0323 ]}; // COMBINING DOT ABOVE, COMBINING DOT BELOW
+    key <AE06> {[ 6, asciicircum, U0302 ]}; // COMBINING CIRCUMFLEX ACCENT
+    key <AE07> {[ 7, ampersand, U1DCD ]}; // COMBINING DOUBLE CIRCUMFLEX ABOVE
+    key <AE08> {[ 8, asterisk, UFE26 ]}; // COMBINING CONJOINING MACRON
+    key <AE09> {[ 9, parenleft, UFE24 ]}; // COMBINING MACRON LEFT HALF
+    key <AE10> {[ 0, parenright, UFE26 ]}; // COMBINING MACRON RIGHT HALF
+    key <AE11> {[ minus, underscore, U0304, U0308 ]}; // COMBINING MACRON, COMBINING DIAERESIS
+    key <AE12> {[ equal, plus ]}; 
 
 
     // Top row
 
     // ϭ (COPTIC SMALL LETTER SHIMA), Ϭ (COPTIC CAPITAL LETTER SHIMA)
-    key <AD01>	{[	 U03ED,	 U03EC		]};
+    key <AD01> {[ U03ED, U03EC ]};
     // ϣ (COPTIC SMALL LETTER SHEI), Ϣ (COPTIC CAPITAL LETTER SHEI)
-    key <AD02>	{[	 U03E3,	 U03E2		]};
+    key <AD02> {[ U03E3, U03E2 ]};
     // ⲉ (COPTIC SMALL LETTER EIE), Ⲉ (COPTIC CAPITAL LETTER EIE)
     // ⲏ (COPTIC SMALL LETTER HATE), Ⲏ (COPTIC CAPITAL LETTER HATE)
-    key <AD03>	{[	 U2C89,	 U2C88, U2C8F, U2C8E ]};
+    key <AD03> {[ U2C89, U2C88, U2C8F, U2C8E ]};
     // ⲣ (COPTIC SMALL LETTER RO), Ⲣ (COPTIC CAPITAL LETTER RO)
-    key <AD04>	{[	 U2CA3,	 U2CA2		]};
+    key <AD04> {[ U2CA3, U2CA2 ]};
     // ⲧ (COPTIC SMALL LETTER TAU), Ⲧ (COPTIC CAPITAL LETTER TAU)
     // ⲑ (COPTIC SMALL LETTER THETHE), Ⲑ (COPTIC CAPITAL LETTER THETHE)
-    key <AD05>	{[	 U2CA7,	 U2CA6, U2C91, U2C90 ]};
+    key <AD05> {[ U2CA7, U2CA6, U2C91, U2C90 ]};
     // ⲏ (COPTIC SMALL LETTER HATE), Ⲏ (COPTIC CAPITAL LETTER HATE)
     // ⲉ (COPTIC SMALL LETTER EIE), Ⲉ (COPTIC CAPITAL LETTER EIE)
-    key <AD06>	{[	 U2C8F,	 U2C8E, U2C89, U2C88 ]};
+    key <AD06> {[ U2C8F, U2C8E, U2C89, U2C88 ]};
     // ⲩ (COPTIC SMALL LETTER UA), Ⲩ (COPTIC CAPITAL LETTER UA)
-    key <AD07>	{[	 U2CA9,	 U2CA8		]};
+    key <AD07> {[ U2CA9, U2CA8 ]};
     // ⲓ (COPTIC SMALL LETTER IAUDA), Ⲓ (COPTIC CAPITAL LETTER IAUDA)
     // ϯ (COPTIC SMALL LETTER DEI), Ϯ (COPTIC CAPITAL LETTER DEI)
-    key <AD08>	{[	 U2C93,	 U2C92, U03EF, U03EE ]};
+    key <AD08> {[ U2C93, U2C92, U03EF, U03EE ]};
     // ⲟ (COPTIC SMALL LETTER O), Ⲟ (COPTIC CAPITAL LETTER O)
     // ⲱ (COPTIC SMALL LETTER OOU), Ⲱ (COPTIC CAPITAL LETTER OOU)
-    key <AD09>	{[	 U2C9F,	 U2C9E, U2CB1, U2CB0 ]};
+    key <AD09> {[ U2C9F, U2C9E, U2CB1, U2CB0 ]};
     // ⲡ (COPTIC SMALL LETTER PI), Ⲡ (COPTIC CAPITAL LETTER PI)
     // ⲫ (COPTIC SMALL LETTER FI), Ⲫ (COPTIC CAPITAL LETTER FI)
-    key <AD10>	{[	 U2CA1,	 U2CA0, U2CAB, U2CAA ]};
-    
-    key <AD11>	{[ bracketleft,	 braceleft, U00B7, U2014 ]}; // MIDDLE DOT, EM DASH
-    key <AD12>	{[ bracketright, braceright, U2013, U2E17 ]}; // EN DASH, DOUBLE OBLIQUE HYPHEN
+    key <AD10> {[ U2CA1, U2CA0, U2CAB, U2CAA ]};
+
+    key <AD11> {[ bracketleft, braceleft ]}; 
+    key <AD12> {[ bracketright, braceright ]};
 
     // Home row
 
     // ⲁ (COPTIC SMALL LETTER ALFA), Ⲁ (COPTIC CAPITAL LETTER ALFA)
-    key <AC01>	{[	 U2C81,	 U2C80		]};
+    key <AC01> {[ U2C81, U2C80 ]};
     // ⲥ (COPTIC SMALL LETTER SIMA), Ⲥ (COPTIC CAPITAL LETTER SIMA)
     // ⲯ (COPTIC SMALL LETTER PSI), Ⲯ (COPTIC CAPITAL LETTER PSI)
-    key <AC02>	{[	 U2CA5,	 U2CA4, U2CAF, U2CAE ]};
+    key <AC02> {[ U2CA5, U2CA4, U2CAF, U2CAE ]};
     // ⲇ (COPTIC SMALL LETTER DALDA), Ⲇ (COPTIC CAPITAL LETTER DALDA)
-    key <AC03>	{[	 U2C87,	 U2C86		]};
+    key <AC03> {[ U2C87, U2C86 ]};
     // ϥ (COPTIC SMALL LETTER FEI), Ϥ (COPTIC CAPITAL LETTER FEI)
-    key <AC04>	{[	 U03E5,	 U03E4		]};
+    key <AC04> {[ U03E5, U03E4 ]};
     // ⲅ (COPTIC SMALL LETTER GAMMA), Ⲅ (COPTIC CAPITAL LETTER GAMMA)
-    key <AC05>	{[	 U2C85,	 U2C84		]};
+    key <AC05> {[ U2C85, U2C84 ]};
     // ϩ (COPTIC SMALL LETTER HORI), Ϩ (COPTIC CAPITAL LETTER HORI)
     // ⲭ (COPTIC SMALL LETTER KHI), Ⲭ (COPTIC CAPITAL LETTER KHI)
-    key <AC06>	{[	 U03E9,	 U03E8, U2CAD, U2CAC ]};
+    key <AC06> {[ U03E9, U03E8, U2CAD, U2CAC ]};
     // ⲱ (COPTIC SMALL LETTER OOU), Ⲱ (COPTIC CAPITAL LETTER OOU)
     // ⲟ (COPTIC SMALL LETTER O), Ⲟ (COPTIC CAPITAL LETTER O)
-    key <AC07>	{[	 U2CB1,	 U2CB0, U2C9F, U2C9E ]};
+    key <AC07> {[ U2CB1, U2CB0, U2C9F, U2C9E ]};
     // ⲕ (COPTIC SMALL LETTER KAPA), Ⲕ (COPTIC CAPITAL LETTER KAPA)
     // ⲝ (COPTIC SMALL LETTER KSI), Ⲝ (COPTIC CAPITAL LETTER KSI)
-    key <AC08>	{[	 U2C95,	 U2C94,	U2C9D, U2C9C ]};
+    key <AC08> {[ U2C95, U2C94, U2C9D, U2C9C ]};
     // ⲗ (COPTIC SMALL LETTER LAULA), Ⲗ (COPTIC CAPITAL LETTER LAULA)
-    key <AC09>	{[	 U2C97,	 U2C96		]};
-    
-    key <AC10>	{[ semicolon,	 colon,    UFE24, UFE26 ]}; // COMBINING MACRON LEFT HALF, COMBINING CONJOINING MACRON
-    key <AC11>	{[ apostrophe,	 quotedbl, UFE25  ]}; // COMBINING MACRON RIGHT HALF
-    key <BKSL>	{[ backslash,	 bar		]};
+    key <AC09> {[ U2C97, U2C96 ]};
+
+    key <AC10> {[ semicolon, colon, U2020 ]}; // DAGGER
+    key <AC11> {[ apostrophe, quotedbl, U00B7, U2CFF ]}; // MIDDLE DOT, COPTIC MORPHOLOGICAL DIVIDER
+    key <BKSL> {[ backslash, bar, U2E17 ]}; // DOUBLE OBLIQUE HYPHEN
 
     // Bottom row
 
     // ⲍ (COPTIC SMALL LETTER ZATA), Ⲍ (COPTIC CAPITAL LETTER ZATA)
-    key <AB01>	{[	 U2C8D,	 U2C8C		]};
+    key <AB01> {[ U2C8D, U2C8C ]};
     // ϧ (COPTIC SMALL LETTER KHEI), Ϧ (COPTIC CAPITAL LETTER KHEI)
     // ⳉ (COPTIC SMALL LETTER AKHMIMIC KHEI), Ⳉ (COPTIC CAPITAL LETTER AKHMIMIC KHEI)
-    key <AB02>	{[	 U03E7,	 U03E6, U2CC9, U2CC8	]};
+    key <AB02> {[ U03E7, U03E6, U2CC9, U2CC8 ]};
     // ϫ (COPTIC SMALL LETTER GANGIA), Ϫ (COPTIC CAPITAL LETTER GANGIA)
-    key <AB03>	{[	 U03EB,	 U03EA		]};
+    key <AB03> {[ U03EB, U03EA ]};
     // ⲃ (COPTIC SMALL LETTER VIDA), Ⲃ (COPTIC CAPITAL LETTER VIDA)
-    key <AB04>	{[	 U2C83,	 U2C82		]};
+    key <AB04> {[ U2C83, U2C82 ]};
     // ⲃ (COPTIC SMALL LETTER VIDA), Ⲃ (COPTIC CAPITAL LETTER VIDA)
-    key <AB05>	{[	 U2C83,	 U2C82		]};
+    key <AB05> {[ U2C83, U2C82 ]};
     // ⲛ (COPTIC SMALL LETTER NI), Ⲛ (COPTIC CAPITAL LETTER NI)
-    key <AB06>	{[	 U2C9B,	 U2C9A		]};
+    key <AB06> {[ U2C9B, U2C9A ]};
     // ⲙ (COPTIC SMALL LETTER MI), Ⲙ (COPTIC CAPITAL LETTER MI)
-    key <AB07>	{[	 U2C99,	 U2C98		]};
-    
-    key <AB08>	{[   comma,	 less    ]};
-    key <AB09>	{[  period,	 greater ]};
-    key <AB10>	{[   slash,	 question ]};
+    key <AB07> {[ U2C99, U2C98 ]};
 
-    key <SPCE>	{[   space,	 space		]};
+    key <AB08> {[ comma, less ]};
+    key <AB09> {[ period, greater, U2CFE ]}; // COPTIC FULL STOP
+    key <AB10> {[ slash, question ]}; 
+
+    key <SPCE> {[ space, space ]};
 
     include "level3(ralt_switch)"
 };
