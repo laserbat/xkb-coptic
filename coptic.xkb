@@ -10,12 +10,12 @@ xkb_symbols "copt" {
     key <AE02> {[ 2, at, U0301]}; // COMBINING ACUTE ACCENT
     key <AE03> {[ 3, numbersign, U2CF0, U2CF1 ]}; // COPTIC COMBINING SPIRITUS ASPER, COPTIC COMBINING SPIRITUS LENIS
     key <AE04> {[ 4, dollar, U2CEF ]}; // COPTIC COMBINING NI ABOVE
-    key <AE05> {[ 5, percent, U0307, U0323 ]}; // COMBINING DOT ABOVE, COMBINING DOT BELOW
+    key <AE05> {[ 5, percent, U0323, U0307 ]}; // COMBINING DOT BELOW, COMBINING DOT ABOVE
     key <AE06> {[ 6, asciicircum, U0302 ]}; // COMBINING CIRCUMFLEX ACCENT
     key <AE07> {[ 7, ampersand, U1DCD ]}; // COMBINING DOUBLE CIRCUMFLEX ABOVE
     key <AE08> {[ 8, asterisk, UFE26 ]}; // COMBINING CONJOINING MACRON
     key <AE09> {[ 9, parenleft, UFE24 ]}; // COMBINING MACRON LEFT HALF
-    key <AE10> {[ 0, parenright, UFE26 ]}; // COMBINING MACRON RIGHT HALF
+    key <AE10> {[ 0, parenright, UFE25 ]}; // COMBINING MACRON RIGHT HALF
     key <AE11> {[ minus, underscore, U0304, U0308 ]}; // COMBINING MACRON, COMBINING DIAERESIS
     key <AE12> {[ equal, plus ]}; 
 
